@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel = "stylesheet" href = "index.css"/>
+</head>
+<body>
+
+    <div id = "tableForm">
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>Marks</th>
+                        <th>Cohort</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                </thead>
+                <tbody id = "tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+              <h2>Student Form</h2>
+              <form>
+                  <input type = "text" id = "name" placeholder = "enter your name"/>
+                  <input type = "number" id = "age" placeholder="enter your age" />
+                  <select id = "gender">
+                      <option value = "Male">male</option>
+                      <option value = "Female">female</option>
+                      <option value = "others">others</option>
+                  </select>
+                  <input type = "number" id = "marks" placeholder="enter your marks" />
+                  <input type = "text" id = "cohort" placeholder = "enter your cohort"/>
+          
+                  <input type = "submit" id = "submit" value = "submit"/>
+              </form>
+        </div>
+         
+    </div>
+</body>
+<script src = "index.js"></script>
+</html>

@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "usha uthup",
+      "age": "56",
+      "gender": "Female",
+      "marks": "41",
+      "cohort": "ptweb04",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Nerty Crosskill",
+      "age": 24,
+      "gender": "Female",
+      "marks": 91,
+      "cohort": "ptweb03"
+    },
+    {
+      "name": "Robert downey jr.",
+      "age": "58",
+      "gender": "Male",
+      "marks": "98",
+      "cohort": "ptweb04",
+      "id": 4
+    }
+  ]
+}
